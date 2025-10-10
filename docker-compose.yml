@@ -1,0 +1,48 @@
+services:
+  # Backend API
+  backend:
+    build:
+      context: "./TaskPro_BackEnd_v0.0 backend"
+      dockerfile: Dockerfile
+    container_name: taskpro-backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 5000
+      DB_HOST: ${DB_HOST}
+      JWT_SECRET: ${JWT_SECRET:-your-super-secret-jwt-key-for-docker-deployment}
+      ACCESS_TOKEN_KEY: ${ACCESS_TOKEN_KEY}
+      REFRESH_TOKEN_KEY: ${REFRESH_TOKEN_KEY}
+      EMAIL_SERVICE: mock
+      FRONTEND_URL: http://localhost:3000
+      CLOUD_NAME: ${CLOUD_NAME}
+      CLOUDINARY_API_KEY: ${CLOUDINARY_API_KEY}
+      CLOUDINARY_API_SECRET_KEY: ${CLOUDINARY_API_SECRET_KEY}
+      CLOUDINARY_URL: ${CLOUDINARY_URL}
+      EMAIL_USERNAME: ${EMAIL_USERNAME}
+      EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+    ports:
+      - "5000:5000"
+    networks:
+      - taskpro-network
+    volumes:
+      - "./TaskPro_BackEnd_v0.0 backend/uploads:/app/uploads"
+
+  # Frontend React App
+  frontend:
+    build:
+      context: "./TaskPro_FrontEnd_v0.0 frontend"
+      dockerfile: Dockerfile
+    container_name: taskpro-frontend
+    restart: unless-stopped
+    environment:
+      REACT_APP_API_URL: http://localhost:5000
+      REACT_APP_ENV: production
+    ports:
+      - "3000:3000"
+    networks:
+      - taskpro-network
+
+networks:
+  taskpro-network:
+    driver: bridge

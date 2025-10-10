@@ -1,0 +1,154 @@
+@import url('../src/fonts/fonts.css');
+
+*,
+*::before,
+*::after {
+  font-family:
+    'Poppins',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    system-ui,
+    sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: seagreen;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+
+  max-height: 100vh;
+  width: 100%;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a:not() {
+  text-decoration-skip-ink: auto;
+}
+
+a {
+  color: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  padding: 0;
+}
+
+/* Cursor management */
+* {
+  cursor: default;
+}
+
+/* Text cursor for input fields */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='url'],
+input[type='number'],
+textarea,
+[contenteditable='true'] {
+  cursor: text;
+}
+
+/* Pointer cursor for interactive elements */
+button,
+[role='button'],
+a,
+label,
+select,
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+input[type='file'],
+input[type='checkbox'],
+input[type='radio'],
+[onclick],
+[data-clickable='true'],
+.clickable {
+  cursor: pointer;
+}
+
+/* Not-allowed cursor for disabled elements */
+:disabled,
+[disabled],
+[aria-disabled='true'] {
+  cursor: not-allowed;
+}
+
+/* Move cursor for draggable elements */
+[draggable='true'] {
+  cursor: move;
+}
+
+/* Help cursor for elements with titles/tooltips */
+[title],
+[data-tooltip] {
+  cursor: help;
+}
+
+/* Text cursor for text selection areas */
+p,
+span,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: default;
+}
+
+/* Allow text selection for readable content only when explicitly marked */
+.text-selectable,
+.content-text,
+.readable-content {
+  cursor: text;
+}

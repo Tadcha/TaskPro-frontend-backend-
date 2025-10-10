@@ -1,0 +1,5 @@
+# ESLint ignore file for test-specific configurations
+
+# Ignore line ending issues in test setup files
+src/setupTests.js
+src/__tests__/**/*.js

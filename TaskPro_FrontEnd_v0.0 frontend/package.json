@@ -1,0 +1,101 @@
+{
+  "name": "taskpro-frontend",
+  "version": "1.0.0",
+  "description": "Professional Task Management Frontend - React Application with Redux Toolkit, Styled Components, and Modern UI/UX",
+  "private": false,
+  "author": {
+    "name": "Florin Racila",
+    "email": "florin.racila@outlook.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "redux-toolkit",
+    "styled-components",
+    "task-management",
+    "kanban",
+    "frontend",
+    "portfolio",
+    "responsive-design"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/florinfire80/TaskPro_FrontEnd"
+  },
+  "homepage": "/",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@mui/material": "^5.13.6",
+    "@react-oauth/google": "^0.12.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "formik": "^2.4.2",
+    "gapi-script": "^1.2.0",
+    "modern-normalize": "^2.0.0",
+    "react": "^18.1.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-datepicker": "^4.14.1",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.10.1",
+    "react-loader-spinner": "^5.3.4",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.3",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.10",
+    "web-vitals": "^2.1.3",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:fast": "react-scripts start",
+    "start:dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --watchAll=false",
+    "test:ci": "CI=true react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "format": "prettier --write src/**/*.{js,jsx,css,json}",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "lint:fix": "eslint src/**/*.{js,jsx} --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
