@@ -42,7 +42,7 @@ A modern, responsive task management application built with React, Redux Toolkit
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/florinfire80/TaskPro.git
+   git clone https://github.com/YOUR_USERNAME/TaskPro.git
    cd TaskPro/TaskPro_FrontEnd_v0.0
    ```
 
@@ -359,8 +359,8 @@ npm run build
 
 **Florin Racila**
 
-- Email: florin.racila@outlook.com
-- GitHub: [@florinfire80](https://github.com/florinfire80)
+- Email: developer@taskpro.com
+- GitHub: [@taskpro-dev](https://github.com/taskpro-dev)
 - Portfolio: [Your Portfolio URL]
 
 ## 📄 License

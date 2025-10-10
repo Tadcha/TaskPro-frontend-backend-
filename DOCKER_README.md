@@ -19,7 +19,7 @@ cp "TaskPro_BackEnd_v0.0 backend/.env.example" "TaskPro_BackEnd_v0.0 backend/.en
 
 ```bash
 # Clone the repository
-git clone https://github.com/florinfire80/TaskPro.git
+git clone https://github.com/YOUR_USERNAME/TaskPro.git
 cd TaskPro
 
 # Configure environment (see Prerequisites above)

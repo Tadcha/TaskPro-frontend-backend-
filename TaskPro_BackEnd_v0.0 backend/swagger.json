@@ -5,8 +5,8 @@
     "title": "TaskPro Backend API",
     "description": "Professional Task Management REST API with JWT authentication, MongoDB Atlas integration, Cloudinary file storage, and enterprise security features. Containerized with Docker for seamless deployment with real cloud database connectivity.",
     "contact": {
-      "name": "Florin Racila",
-      "email": "florin.racila@outlook.com"
+      "name": "TaskPro Developer",
+      "email": "developer@taskpro.com"
     },
     "license": {
       "name": "MIT",

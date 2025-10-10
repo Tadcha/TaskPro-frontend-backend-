@@ -332,11 +332,11 @@ This API is configured for deployment on:
 
 ## 👨‍💻 Author
 
-**Florin Racila**
+**TaskPro Developer**
 
-- Email: florin.racila@outlook.com
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn]
+- Email: developer@taskpro.com
+- Portfolio: [Developer Portfolio](https://taskpro-dev.com)
+- LinkedIn: [TaskPro Developer](https://linkedin.com/in/taskpro-dev)
 
 ## 📄 License
 

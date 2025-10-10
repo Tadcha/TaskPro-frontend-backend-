@@ -4,8 +4,8 @@
   "description": "Professional Task Management Frontend - React Application with Redux Toolkit, Styled Components, and Modern UI/UX",
   "private": false,
   "author": {
-    "name": "Florin Racila",
-    "email": "florin.racila@outlook.com"
+    "name": "TaskPro Developer",
+    "email": "developer@taskpro.com"
   },
   "license": "MIT",
   "keywords": [
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/florinfire80/TaskPro_FrontEnd"
+    "url": "https://github.com/YOUR_USERNAME/TaskPro_FrontEnd"
   },
   "homepage": "/",
   "engines": {
